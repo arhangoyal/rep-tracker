@@ -1,4 +1,4 @@
-# rep-tracker
+# REP TRACKER
 - CV Project that uses Mediapipe for Pose Detection.
 - Front end (mobile app) implemented using Flutter and SQLite backend to track reps during workouts.
 - Workouts implemented - PushUps and Squats
@@ -11,8 +11,9 @@
 
 # Installation 
 ## For Flutter Code
-- Using an IDE (VS Code) run the code in the lib/ directory with the pubspec.yaml that has been provided here
+- Connect your Android phone to the IDE (VS Code) and run the code in the lib/ directory with the pubspec.yaml that has been provided here
 
 ## For MLPoseDetector
-- On Ras
-- Once dependecies are installed, put the bluetoothserver.py and 
+- On Raspberry Pi, install the dependencies - openCV, numpy, bluedot, mediapipe
+- Once dependecies are installed, place the bluetoothserver.py and DetectPose.py in same path
+- Enter 'python bluetoothserver.py' to run the program
