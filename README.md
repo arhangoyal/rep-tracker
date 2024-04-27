@@ -8,3 +8,11 @@
 # Code
 - lib/ - Contains Flutter and SQLite code
 - MLPoseDetector/ - Contains bluetooth server that uses mediapipe for Pose Detection
+
+# Installation 
+## For Flutter Code
+- Using an IDE (VS Code) run the code in the lib/ directory with the pubspec.yaml that has been provided here
+
+## For MLPoseDetector
+- On Ras
+- Once dependecies are installed, put the bluetoothserver.py and 
